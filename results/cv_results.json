@@ -1,0 +1,76 @@
+{
+  "cv_folds": 5,
+  "model_accuracy": 93.75,
+  "model_accuracy_std": 3.0190368221228,
+  "model_precision": 0.9386197408983928,
+  "model_recall": 0.9375,
+  "model_f1": 0.9374529197982134,
+  "model_auc": 0.9692708333333332,
+  "model_auc_std": 0.01690960190608579,
+  "unlearning_time": 9.28298373222351,
+  "ensemble_acc_before": 93.75,
+  "ensemble_acc_after": 93.75,
+  "acc_drop": -5.684341886080802e-15,
+  "attack_advantage": 0.09791666666666667,
+  "attack_accuracy": 0.7805555555555557,
+  "unlearning_success_rate": 100.0,
+  "avg_confidence_drop": 0.3103850781917572,
+  "avg_param_distance": 27170.858470344545,
+  "avg_gradient_similarity": 0.006398897664621472,
+  "avg_kl_divergence": 12.717950820922852,
+  "avg_js_divergence": 0.3275652825832367,
+  "forgotten_status": "100.0% Success Rate",
+  "fold_summary": [
+    {
+      "fold": 1,
+      "accuracy": 97.91666666666666,
+      "precision": 0.98,
+      "recall": 0.9791666666666666,
+      "f1": 0.9791576204950064,
+      "auc": 0.9830729166666667,
+      "unlearning_status": "SUCCESSFUL",
+      "attack_advantage": 0.14322916666666669
+    },
+    {
+      "fold": 2,
+      "accuracy": 94.79166666666666,
+      "precision": 0.94811115935736,
+      "recall": 0.9479166666666666,
+      "f1": 0.947911014650027,
+      "auc": 0.98828125,
+      "unlearning_status": "SUCCESSFUL",
+      "attack_advantage": 0.057291666666666685
+    },
+    {
+      "fold": 3,
+      "accuracy": 88.54166666666666,
+      "precision": 0.8869281045751635,
+      "recall": 0.8854166666666666,
+      "f1": 0.8853046594982078,
+      "auc": 0.947048611111111,
+      "unlearning_status": "SUCCESSFUL",
+      "attack_advantage": 0.10677083333333331
+    },
+    {
+      "fold": 4,
+      "accuracy": 93.75,
+      "precision": 0.9405594405594405,
+      "recall": 0.9375,
+      "f1": 0.937391304347826,
+      "auc": 0.9767795138888888,
+      "unlearning_status": "SUCCESSFUL",
+      "attack_advantage": 0.1328125
+    },
+    {
+      "fold": 5,
+      "accuracy": 93.75,
+      "precision": 0.9375,
+      "recall": 0.9375,
+      "f1": 0.9375,
+      "auc": 0.951171875,
+      "unlearning_status": "SUCCESSFUL",
+      "attack_advantage": 0.04947916666666663
+    }
+  ],
+  "total_patients": 480
+}
